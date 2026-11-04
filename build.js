@@ -102,6 +102,7 @@ function head(c, lang, { canonical, pageUrl, assetBase, artifact }) {
 <head>${metaCommon}
   <title>${esc(c.seo.title)}</title>
   <meta name="description" content="${esc(c.seo.description)}">
+${Object.entries(site.verification || {}).map(([k, v]) => `  <meta name="${esc(k)}" content="${esc(v)}">`).join("\n")}
   <link rel="canonical" href="${canonical}">
   ${alternates}
   <link rel="alternate" hreflang="x-default" href="${urlFor(site.defaultLang)}">

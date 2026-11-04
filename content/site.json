@@ -26,7 +26,11 @@
     "_portrait": "Ja vēlies portretu: ieliec failu mapē static/ un šeit ieraksti, piem., \"portrait.jpg\". Tukšs = bez portreta.",
     "portraitAbout": "portrait-about.jpg"
   },
-  "updated": "2026-11-02",
+  "updated": "2026-11-04",
+  "_verification": "Meklētāju īpašumtiesību apliecinājumi (meta tagi lapas <head>). Google izmanto DNS TXT ierakstu nic.lv.",
+  "verification": {
+    "msvalidate.01": "83345341CA9FA6D6437A9A7457640518"
+  },
   "logos": {
     "BTA": "logos/bta.svg",
     "Zen IS": "logos/zenis.svg",
