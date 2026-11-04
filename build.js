@@ -109,7 +109,9 @@ function head(c, lang, { canonical, pageUrl, assetBase, artifact }) {
   <meta property="og:title" content="${esc(c.seo.title)}">
   <meta property="og:description" content="${esc(c.seo.description)}">
   <meta property="og:url" content="${pageUrl}">
-  <meta property="og:image" content="${site.baseUrl}/og-${lang}.png">
+  <meta property="og:image" content="${site.baseUrl}/og-${lang}.jpg">
+  <meta property="og:image:secure_url" content="${site.baseUrl}/og-${lang}.jpg">
+  <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="${esc(site.person.name)}, ${esc(c.seo.ogTagline)}">
