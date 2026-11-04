@@ -1,0 +1,294 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "otherLangLabel": "Latviski",
+  "seo": {
+    "title": "Elīna Ozola | UX/UI design and user research",
+    "description": "Elīna Ozola is a UX/UI designer with more than 10 years of experience. User research, service design, design thinking, accessibility and design team leadership.",
+    "ogTagline": "UX, user research and service design"
+  },
+  "ui": {
+    "skipLink": "Skip to content",
+    "navLabel": "Main navigation",
+    "langSwitchLabel": "Language",
+    "footerNote": "(formerly Ozola-Tērauda)",
+    "updatedLabel": "Updated",
+    "topLabel": "Back to top",
+    "footerNavLabel": "Footer links"
+  },
+  "nav": [
+    {
+      "id": "approach",
+      "label": "Approach"
+    },
+    {
+      "id": "work",
+      "label": "Work"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "publications",
+      "label": "Publications and teaching"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "UX/UI · user research · service design · accessibility",
+    "name": "Elīna Ozola",
+    "thesis": "Easier to understand. Easier to use.",
+    "intro": [
+      "Finding what you need, making a choice, applying for a service. Everyday actions that often hide complex processes. My work is to understand those processes and the people who face them, so that the digital solutions we build are well thought through.",
+      "More than ten years in design: from Tet TV+ to insurance and public digital services. Both designing myself and leading teams."
+    ],
+    "ctaPrimary": {
+      "label": "Get in touch",
+      "href": "#contact"
+    },
+    "ctaSecondary": {
+      "label": "See my work",
+      "href": "#work"
+    },
+    "facts": [
+      {
+        "label": "Currently",
+        "value": "User research and product design · BTA"
+      },
+      {
+        "label": "Experience",
+        "value": "10+ years in design · Latvia and the Baltics"
+      },
+      {
+        "label": "Industries",
+        "value": "Insurance, finance, telecommunications, e-commerce and the public sector"
+      },
+      {
+        "label": "Working languages",
+        "value": "Latvian and English"
+      }
+    ]
+  },
+  "trust": {
+    "heading": "Organisations and collaborations",
+    "groups": [
+      {
+        "label": "Employers",
+        "items": [
+          "BTA",
+          "Zen IS",
+          "If P&C Insurance",
+          "Tet",
+          "Efumo SSC"
+        ]
+      },
+      {
+        "label": "Project clients",
+        "note": "through an employer or partner",
+        "items": [
+          "Latvijas Banka",
+          "LIAA",
+          "PTA.lv",
+          "Printify"
+        ]
+      },
+      {
+        "label": "Collaborations and teaching",
+        "items": [
+          "Tele2",
+          "CUBE",
+          "State Administration School (VAS)",
+          "BDA"
+        ]
+      }
+    ]
+  },
+  "competences": {
+    "id": "what-i-solve",
+    "heading": "What I help solve",
+    "lead": "Four situations where my work is easiest to understand: what the problem is, what I do, and what comes out of it.",
+    "rowLabels": {
+      "situation": "Situation",
+      "action": "What I do",
+      "outcome": "Outcome"
+    },
+    "items": [
+      {
+        "title": "Defining an unclear problem",
+        "situation": "The team senses that a product or process is not working, but there is no shared view of what exactly is wrong and why.",
+        "action": "I interview users and front-line staff, analyse data and competitors, and frame the problem and priorities together with stakeholders in design-thinking workshops.",
+        "outcome": "An evidence-based basis for decisions before development budget is spent."
+      },
+      {
+        "title": "Simplifying complex services",
+        "situation": "Insurance, financial information or a public service is correct in substance but hard for people to understand and complete.",
+        "action": "I map the journey from end users to internal staff, design flows and prototypes, test them with users and hand them over to development.",
+        "outcome": "A service people can complete without help, and less load on support."
+      },
+      {
+        "title": "Aligning stakeholders",
+        "situation": "Decisions get stuck between business, IT and marketing, and everyone has a different picture of the goal.",
+        "action": "I run workshops, design-thinking programmes and design critique, and turn opinions into shared goals, target groups and KPIs.",
+        "outcome": "One direction, and decisions that do not come back to the next meeting."
+      },
+      {
+        "title": "Building design practice and systems",
+        "situation": "The organisation has design, but no process, system or team that keeps it consistent.",
+        "action": "I build design systems, ways of working and teams, and make accessibility (WCAG) an everyday standard rather than a final check.",
+        "outcome": "A consistent product across platforms and cheaper development through reusable components."
+      }
+    ]
+  },
+  "work": {
+    "id": "work",
+    "heading": "A few projects that mattered",
+    "lead": "Each one starts with a problem: a business challenge or a user need that has not been met.",
+    "items": [
+      {
+        "org": "If P&C Insurance",
+        "role": "UX/UI Designer",
+        "years": "2023–2024",
+        "title": "Baltic Claims system and partner portal",
+        "text": "A claims-handling system used daily by claims specialists across the Baltics. User interviews were carried out to uncover the main pain points, and the findings were turned into concrete UX and UI improvements: simpler flows and a clearer visual hierarchy. The partner portal was substantially improved as well. The work was done in close collaboration with developers and business analysts.",
+        "image": "work/baltic-claims.jpg",
+        "imageAlt": "Baltic Claims system screen: claim details, notes and tasks"
+      },
+      {
+        "org": "If P&C Insurance",
+        "role": "UX/UI Designer, later Head of UX & Service Design",
+        "years": "2023–2025",
+        "title": "Fully digital personal accident insurance purchase",
+        "text": "A new, fully digital personal accident insurance webshop, designed from scratch through the full UX/UI cycle. The user journey was defined, prototypes were built and tested with users, and a clear, purchase-focused experience was handed over to development. The solution covers both customers and front-line staff, including internal tooling for customer support.",
+        "image": "work/nelaimes-gadijumi.jpg",
+        "imageAlt": "Personal accident insurance purchase, coverage step with price summary"
+      },
+      {
+        "org": "Latvijas Banka, a Zen IS project",
+        "role": "Head of Research & Design",
+        "years": "2024–2026",
+        "title": "Mana pensija",
+        "text": "A site that explains the Latvian pension system and helps people choose a plan. The work was led from secondary data and competitor analysis through user research, personas, concept and prototype tests (36 interviews and tests in total), as well as problem-definition workshops with the client. Dense financial information became clear pages with calculators, comparisons and a design system.",
+        "image": "work/mana-pensija.jpg",
+        "imageAlt": "manapensija.lv home page with age-group sections"
+      },
+      {
+        "org": "LIAA, a Zen IS project",
+        "role": "Head of Research & Design",
+        "years": "2024–2026",
+        "title": "business.gov.lv, state services for entrepreneurs",
+        "text": "A portal that brings state e-services for entrepreneurs into one place and guides them through complex processes. Goals, target groups and KPIs were set in a workshop with LIAA stakeholders; new layouts for public and authorised users were designed and user-tested; and a scalable design system was built with clear foundations for colour, typography and components.",
+        "image": "work/business-gov.jpg",
+        "imageAlt": "business.gov.lv home page with service search and main sections"
+      },
+      {
+        "org": "Tele2",
+        "role": "Programme creator and facilitator",
+        "years": "2023–2024",
+        "title": "Design-thinking programme for app development",
+        "text": "A twelve-week design-thinking programme aimed at making the app Tele2's main digital point of contact with customers. The programme was created and run end to end: 20 participants in four teams, each with its own user focus, four on-site workshops and five online sessions. Together with a UI designer, the teams' ideas were developed into an app design solution on a shared design system.",
+        "image": "work/tele2.jpg",
+        "imageAlt": "Three Tele2 app screens: invoice, offer and TV package selection"
+      },
+      {
+        "org": "Tet",
+        "role": "Senior UI Designer",
+        "years": "2022–2023",
+        "title": "Tet.lv redesign and design system",
+        "text": "The Tet.lv website redesign after the rebrand, leading the UI team: concept with the team, UI roadmap, workshops and communication with stakeholders and marketing. Alongside, a design system was built from scratch: guidelines and components rolled out step by step across products and reused in Storybook to reduce development costs.",
+        "image": "work/tet-lv.jpg",
+        "imageAlt": "Tet.lv redesign on laptop and phone: themed TV packages"
+      }
+    ]
+  },
+  "about": {
+    "id": "about",
+    "heading": "About",
+    "bio": [
+      "I am Elīna Ozola, a UX and service designer from Latvia; until now I have also been known professionally as Elīna Ozola-Tērauda. I have worked in design for more than ten years: I started in graphic and web design, moved into product design across platforms (web, iOS, Android and TV) and in recent years focused on user research, service design and building design teams.",
+      "I currently work in user research and design at BTA, building the UX practice and design-system foundations, running user research and designing digital solutions. Before that I led the Research & Design team at Zen IS and UX and service design at If P&C Insurance in the Baltics. I run design-thinking workshops and programmes and teach accessibility and user-centred content to public-sector teams. In 2026 I completed a degree in business management at Turība University."
+    ],
+    "timelineHeading": "Timeline",
+    "timeline": [
+      {
+        "years": "2026 –",
+        "org": "BTA",
+        "role": "User research and product design",
+        "current": true
+      },
+      {
+        "years": "2025 – 2026",
+        "org": "Zen IS",
+        "role": "Head of Research & Design"
+      },
+      {
+        "years": "2023 – 2025",
+        "org": "If P&C Insurance",
+        "role": "UX/UI Designer, then Head of UX & Service Design"
+      },
+      {
+        "years": "2020 – 2023",
+        "org": "Tet",
+        "role": "UI Designer, then Senior UI Designer"
+      },
+      {
+        "years": "2019 – 2020",
+        "org": "Efumo SSC",
+        "role": "UI Designer"
+      },
+      {
+        "years": "2012 – 2019",
+        "org": "Freelance",
+        "role": "UX/UI and graphic designer"
+      }
+    ]
+  },
+  "publications": {
+    "id": "publications",
+    "heading": "Publications and teaching",
+    "lead": "What I share beyond day-to-day work.",
+    "items": [
+      {
+        "title": "Training programme “User-centred digital content creation”",
+        "role": "Lecturer",
+        "source": "State Administration School (VAS), in cooperation with BDA",
+        "date": "2026",
+        "url": "https://www.vas.gov.lv/lv/notikums/macibu-programma-lietotajorienteta-digitala-satura-veidosana",
+        "text": "A practical programme for public-sector teams on accessibility (WCAG), user-centred content and how to test it: workshops, real cases and independent assignments. Page in Latvian.",
+        "image": "thumbs/vas.jpg",
+        "imageAlt": "Banner of the training programme “User-centred digital content creation” (vas.gov.lv)"
+      },
+      {
+        "title": "The limits of AI in business: where design thinking and business analysis become indispensable",
+        "role": "Featured expert",
+        "source": "dih.lv",
+        "date": "2026",
+        "url": "https://dih.lv/lv/jaunumi-un-pasakumi/jaunumi/mi-robezas-biznesa-kur-dizaina-domasana-un-biznesa-analize-klust-neaizvietojamas",
+        "text": "On problem definition, a human-centred approach and the reality inside organisations when adopting AI. Written together with Zen IS colleagues. Article in Latvian.",
+        "image": "thumbs/dih.jpg",
+        "imageAlt": "Elīna Ozola (photo: Billijs Ločs)"
+      }
+    ]
+  },
+  "contact": {
+    "id": "contact",
+    "heading": "Get in touch",
+    "lead": "Write if you are looking for UX, research or service-design experience for your team, want a design-thinking workshop or a talk on accessibility and user-centred content, or simply want to discuss any of these topics.",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "linkedinText": "linkedin.com/in/elinaozolaux",
+    "responseNote": "I usually reply within a few working days."
+  },
+  "approach": {
+    "id": "approach",
+    "heading": "Different industries. Focus on people.",
+    "paragraphs": [
+      "Watching TV, buying insurance or applying for a public service: in each situation a person has their own goal, questions and obstacles.",
+      "Work on Tet, If, Zen IS and BTA projects has given me experience with customer apps and websites as well as the systems employees use every day. At BTA this now means user research, the design of digital solutions and the development of the design system.",
+      "Alongside product work: leading design teams, running design-thinking workshops and teaching user-centred content and digital accessibility."
+    ]
+  }
+}

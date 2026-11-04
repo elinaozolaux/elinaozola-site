@@ -1,0 +1,294 @@
+{
+  "lang": "lv",
+  "langName": "Latviski",
+  "otherLangLabel": "English",
+  "seo": {
+    "title": "Elīna Ozola | UX/UI dizains un lietotāju izpēte",
+    "description": "Elīna Ozola ir UX/UI dizainere ar vairāk nekā 10 gadu pieredzi. Lietotāju izpēte, pakalpojumu dizains, dizaina domāšana, piekļūstamība un dizaina komandu vadība.",
+    "ogTagline": "UX, lietotāju izpēte un pakalpojumu dizains"
+  },
+  "ui": {
+    "skipLink": "Pāriet uz saturu",
+    "navLabel": "Galvenā navigācija",
+    "langSwitchLabel": "Valoda",
+    "footerNote": "(agrāk Ozola-Tērauda)",
+    "updatedLabel": "Atjaunots",
+    "topLabel": "Uz augšu",
+    "footerNavLabel": "Kājenes saites"
+  },
+  "nav": [
+    {
+      "id": "pieeja",
+      "label": "Pieeja"
+    },
+    {
+      "id": "pieredze",
+      "label": "Pieredze"
+    },
+    {
+      "id": "par-mani",
+      "label": "Par mani"
+    },
+    {
+      "id": "publikacijas",
+      "label": "Publikācijas un mācības"
+    },
+    {
+      "id": "kontakti",
+      "label": "Kontakti"
+    }
+  ],
+  "hero": {
+    "eyebrow": "UX/UI · lietotāju izpēte · pakalpojumu dizains · piekļūstamība",
+    "name": "Elīna Ozola",
+    "thesis": "Vieglāk saprast. Ērtāk lietot.",
+    "intro": [
+      "Atrast vajadzīgo, izdarīt izvēli, pieteikt pakalpojumu. Ikdienas darbības, aiz kurām bieži slēpjas sarežģīti procesi. Mans darbs ir izprast šos procesus un cilvēkus, kuri ar tiem sastopas, lai veidotu pārdomātus digitālos risinājumus.",
+      "Vairāk nekā desmit gadu pieredze dizainā: no Tet TV+ līdz apdrošināšanas un valsts digitālajiem pakalpojumiem. Gan pašai veidojot dizainu, gan vadot komandas."
+    ],
+    "ctaPrimary": {
+      "label": "Sazināties",
+      "href": "#kontakti"
+    },
+    "ctaSecondary": {
+      "label": "Apskatīt pieredzi",
+      "href": "#pieredze"
+    },
+    "facts": [
+      {
+        "label": "Pašlaik",
+        "value": "Lietotāju izpēte un produktu dizains · BTA"
+      },
+      {
+        "label": "Pieredze",
+        "value": "10+ gadi dizainā · Latvija un Baltija"
+      },
+      {
+        "label": "Nozares",
+        "value": "Apdrošināšana, finanses, telekomunikācijas, e-komercija un publiskais sektors"
+      },
+      {
+        "label": "Darba valodas",
+        "value": "Latviešu un angļu"
+      }
+    ]
+  },
+  "trust": {
+    "heading": "Organizācijas un sadarbības",
+    "groups": [
+      {
+        "label": "Darba devēji",
+        "items": [
+          "BTA",
+          "Zen IS",
+          "If P&C Insurance",
+          "Tet",
+          "Efumo SSC"
+        ]
+      },
+      {
+        "label": "Projektu pasūtītāji",
+        "note": "darba devēja vai partnera projektos",
+        "items": [
+          "Latvijas Banka",
+          "LIAA",
+          "PTA.lv",
+          "Printify"
+        ]
+      },
+      {
+        "label": "Sadarbības un mācības",
+        "items": [
+          "Tele2",
+          "CUBE",
+          "Valsts administrācijas skola",
+          "BDA"
+        ]
+      }
+    ]
+  },
+  "competences": {
+    "id": "kompetences",
+    "heading": "Ko palīdzu atrisināt",
+    "lead": "Četras situācijas, kurās manu darbu ir visvieglāk saprast: kāda ir problēma, ko es daru un kas no tā rodas.",
+    "rowLabels": {
+      "situation": "Situācija",
+      "action": "Ko daru",
+      "outcome": "Rezultāts"
+    },
+    "items": [
+      {
+        "title": "Neskaidras problēmas definēšana",
+        "situation": "Komanda jūt, ka produkts vai process nestrādā, bet nav vienota skatījuma, kas tieši un kāpēc.",
+        "action": "Intervēju lietotājus un frontlīnijas darbiniekus, analizēju datus un konkurentus, kopā ar iesaistītajām pusēm dizaina domāšanas darbnīcās formulēju problēmu un prioritātes.",
+        "outcome": "Ar pierādījumiem pamatots lēmumu pamats, pirms tiek ieguldīts izstrādē."
+      },
+      {
+        "title": "Sarežģītu pakalpojumu vienkāršošana",
+        "situation": "Apdrošināšana, finanšu informācija vai valsts pakalpojums ir pareizs pēc būtības, bet lietotājam grūti saprotams un pabeidzams.",
+        "action": "Kartēju ceļu no gala lietotāja līdz iekšējiem darbiniekiem, veidoju plūsmas un prototipus, pārbaudu tos ar lietotājiem un nododu izstrādei.",
+        "outcome": "Pakalpojums, ko var pabeigt bez palīdzības, un mazāka slodze atbalstam."
+      },
+      {
+        "title": "Iesaistīto pušu saskaņošana",
+        "situation": "Lēmumi iestrēgst starp biznesu, IT un mārketingu, un katram ir savs priekšstats par mērķi.",
+        "action": "Vadu darbnīcas, dizaina domāšanas programmas un dizaina kritiku; pārvēršu viedokļus kopīgos mērķos, mērķauditorijās un KPI.",
+        "outcome": "Vienots virziens un lēmumi, kas neatgriežas atpakaļ sapulcēs."
+      },
+      {
+        "title": "Dizaina prakses un sistēmu veidošana",
+        "situation": "Organizācijai dizains ir, bet nav procesa, sistēmas vai komandas, kas to notur konsekventu.",
+        "action": "Veidoju dizaina sistēmas, darba procesus un komandas; iestrādāju piekļūstamību (WCAG) kā ikdienas standartu, nevis gala pārbaudi.",
+        "outcome": "Konsekvents produkts visās platformās un lētāka izstrāde, atkārtoti izmantojot komponentes."
+      }
+    ]
+  },
+  "work": {
+    "id": "pieredze",
+    "heading": "Daži nozīmīgi projekti",
+    "lead": "Katrs sākas ar kādu problēmu. Tas var būt gan biznesa izaicinājums, gan lietotāja nepiepildīta vajadzība.",
+    "items": [
+      {
+        "org": "If P&C Insurance",
+        "role": "UX/UI dizainere",
+        "years": "2023–2024",
+        "title": "Baltic Claims sistēma un partneru portāls",
+        "text": "Atlīdzību apstrādes sistēma, ko ik dienu lieto atlīdzību speciālisti Baltijā. Tika veiktas lietotāju intervijas, lai atrastu galvenos sāpju punktus, un atziņas pārvērstas konkrētos UX un UI uzlabojumos: vienkāršākās plūsmās un skaidrākā vizuālajā hierarhijā. Būtiski pilnveidots arī partneru portāls. Darbs noritēja ciešā sadarbībā ar izstrādātājiem un biznesa analītiķiem.",
+        "image": "work/baltic-claims.jpg",
+        "imageAlt": "Baltic Claims sistēmas ekrāns: atlīdzības lietas detaļas, piezīmes un uzdevumi"
+      },
+      {
+        "org": "If P&C Insurance",
+        "role": "UX/UI dizainere, vēlāk Head of UX & Service Design",
+        "years": "2023–2025",
+        "title": "Nelaimes gadījumu apdrošināšanas digitālā iegāde",
+        "text": "Jauns, pilnībā digitāls nelaimes gadījumu apdrošināšanas pirkšanas risinājums, veidots no nulles pilnā UX/UI ciklā. Tika definēts lietotāja ceļš, izstrādāti un ar lietotājiem pārbaudīti prototipi, un izstrādei nodota skaidra, uz pirkuma pabeigšanu vērsta pieredze. Risinājums aptver gan klientu, gan frontlīnijas darbinieku vajadzības, ieskaitot iekšējos rīkus klientu atbalstam.",
+        "image": "work/nelaimes-gadijumi.jpg",
+        "imageAlt": "Nelaimes gadījumu apdrošināšanas iegādes solis «Seguma izvēle» ar cenu kopsavilkumu"
+      },
+      {
+        "org": "Latvijas Banka, Zen IS projektā",
+        "role": "Head of Research & Design",
+        "years": "2024–2026",
+        "title": "Mana pensija",
+        "text": "Vietne, kas skaidro Latvijas pensiju sistēmu un palīdz izvēlēties plānu. Darbs tika vadīts no sekundāro datu un konkurentu analīzes līdz lietotāju izpētei, personām, konceptam un prototipu testiem (kopā 36 intervijas un testi), kā arī problēmas definēšanas darbnīcām ar pasūtītāju. Blīva finanšu informācija pārvērsta skaidrās lapās ar kalkulatoriem, salīdzinājumiem un dizaina sistēmu.",
+        "image": "work/mana-pensija.jpg",
+        "imageAlt": "manapensija.lv sākumlapa ar vecuma grupu sadaļām"
+      },
+      {
+        "org": "LIAA, Zen IS projektā",
+        "role": "Head of Research & Design",
+        "years": "2024–2026",
+        "title": "business.gov.lv, valsts pakalpojumi uzņēmējiem",
+        "text": "Portāls, kas apkopo valsts e-pakalpojumus uzņēmējiem vienuviet un vada cauri sarežģītiem procesiem. Darbnīcā kopā ar LIAA iesaistītajām pusēm tika noteikti mērķi, mērķauditorijas un KPI; izstrādāti un ar lietotājiem pārbaudīti jauni izkārtojumi publiskajiem un autorizētajiem lietotājiem; izveidota mērogojama dizaina sistēma ar skaidriem pamatiem krāsām, tipogrāfijai un komponentēm.",
+        "image": "work/business-gov.jpg",
+        "imageAlt": "business.gov.lv sākumlapa ar pakalpojumu meklēšanu un galvenajām sadaļām"
+      },
+      {
+        "org": "Tele2",
+        "role": "Programmas autore un vadītāja",
+        "years": "2023–2024",
+        "title": "Dizaina domāšanas programma lietotnes attīstībai",
+        "text": "Divpadsmit nedēļu dizaina domāšanas programma ar mērķi padarīt lietotni par galveno Tele2 digitālo saskarsmes punktu ar klientu. Programma tika izveidota un vadīta no sākuma līdz beigām: 20 dalībnieki četrās komandās, katrai savs lietotāju fokuss, četras klātienes darbnīcas un piecas tiešsaistes sesijas. Komandu idejas kopā ar UI dizaineru tika attīstītas līdz lietotnes dizaina risinājumam uz kopīgas dizaina sistēmas.",
+        "image": "work/tele2.jpg",
+        "imageAlt": "Trīs Tele2 lietotnes ekrāni: rēķins, piedāvājums un TV paku izvēle"
+      },
+      {
+        "org": "Tet",
+        "role": "Senior UI dizainere",
+        "years": "2022–2023",
+        "title": "Tet.lv pārveide un dizaina sistēma",
+        "text": "Tet.lv vietnes pārveide pēc zīmola atjaunošanas, vadot UI komandu: koncepts kopā ar komandu, UI ceļa karte, darbnīcas un komunikācija ar iesaistītajām pusēm un mārketingu. Līdztekus no nulles tika veidota dizaina sistēma: vadlīnijas un komponentes, kas pakāpeniski ieviešamas visos produktos un atkārtoti izmantojamas Storybook, lai samazinātu izstrādes izmaksas.",
+        "image": "work/tet-lv.jpg",
+        "imageAlt": "Tet.lv pārveides ekrāni datorā un telefonā: tematiskās TV pakas"
+      }
+    ]
+  },
+  "about": {
+    "id": "par-mani",
+    "heading": "Par mani",
+    "bio": [
+      "Esmu Elīna Ozola, UX un pakalpojumu dizainere no Latvijas; profesionāli līdz šim esmu bijusi pazīstama arī kā Elīna Ozola-Tērauda. Dizainā strādāju vairāk nekā desmit gadus: sāku ar grafikas un tīmekļa dizainu, tad produktu dizainu dažādās platformās (tīmeklī, iOS, Android un TV vidē), un pēdējos gados pievērsos lietotāju izpētei, pakalpojumu dizainam un dizaina komandu veidošanai.",
+      "Pašlaik strādāju BTA lietotāju izpētes un dizaina jomā: veidoju UX praksi un dizaina sistēmas pamatus, veicu lietotāju izpēti un dizainēju digitālos risinājumus. Iepriekš vadīju Research & Design komandu Zen IS un UX un pakalpojumu dizainu If P&C Insurance Baltijā. Vadu dizaina domāšanas darbnīcas un programmas, mācu piekļūstamību un lietotājorientēta satura veidošanu publiskā sektora komandām. 2026. gadā pabeidzu biznesa vadības studijas Biznesa augstskolā Turība."
+    ],
+    "timelineHeading": "Pieredzes līnija",
+    "timeline": [
+      {
+        "years": "2026 –",
+        "org": "BTA",
+        "role": "Lietotāju izpēte un produktu dizains",
+        "current": true
+      },
+      {
+        "years": "2025 – 2026",
+        "org": "Zen IS",
+        "role": "Head of Research & Design"
+      },
+      {
+        "years": "2023 – 2025",
+        "org": "If P&C Insurance",
+        "role": "UX/UI dizainere, pēc tam Head of UX & Service Design"
+      },
+      {
+        "years": "2020 – 2023",
+        "org": "Tet",
+        "role": "UI dizainere, pēc tam Senior UI dizainere"
+      },
+      {
+        "years": "2019 – 2020",
+        "org": "Efumo SSC",
+        "role": "UI dizainere"
+      },
+      {
+        "years": "2012 – 2019",
+        "org": "Freelance",
+        "role": "UX/UI un grafikas dizainere"
+      }
+    ]
+  },
+  "publications": {
+    "id": "publikacijas",
+    "heading": "Publikācijas un mācības",
+    "lead": "Tas, ar ko dalos ārpus ikdienas darba.",
+    "items": [
+      {
+        "title": "Mācību programma «Lietotājorientēta digitālā satura veidošana»",
+        "role": "Pasniedzēja",
+        "source": "Valsts administrācijas skola, sadarbībā ar BDA",
+        "date": "2026",
+        "url": "https://www.vas.gov.lv/lv/notikums/macibu-programma-lietotajorienteta-digitala-satura-veidosana",
+        "text": "Praktiska programma publiskā sektora komandām par piekļūstamību (WCAG), lietotājorientētu saturu un tā pārbaudi: darbnīcas, reāli piemēri un patstāvīgi uzdevumi.",
+        "image": "thumbs/vas.jpg",
+        "imageAlt": "Mācību programmas «Lietotājorientēta digitālā satura veidošana» attēls (vas.gov.lv)"
+      },
+      {
+        "title": "MI robežas biznesā: kur dizaina domāšana un biznesa analīze kļūst neaizvietojamas",
+        "role": "Raksta eksperte",
+        "source": "dih.lv",
+        "date": "2026",
+        "url": "https://dih.lv/lv/jaunumi-un-pasakumi/jaunumi/mi-robezas-biznesa-kur-dizaina-domasana-un-biznesa-analize-klust-neaizvietojamas",
+        "text": "Par problēmas definēšanu, cilvēkcentrētu pieeju un organizāciju realitāti, ieviešot MI. Raksts tapis kopā ar Zen IS kolēģiem.",
+        "image": "thumbs/dih.jpg",
+        "imageAlt": "Elīna Ozola (foto: Billijs Ločs)"
+      }
+    ]
+  },
+  "contact": {
+    "id": "kontakti",
+    "heading": "Sazināties",
+    "lead": "Rakstiet, ja meklējat UX, izpētes vai pakalpojumu dizaina pieredzi savai komandai, vēlaties dizaina domāšanas darbnīcu vai lekciju par piekļūstamību un lietotājorientētu saturu, vai vienkārši sarunu par kādu no šīm tēmām.",
+    "emailLabel": "E-pasts",
+    "linkedinLabel": "LinkedIn",
+    "linkedinText": "linkedin.com/in/elinaozolaux",
+    "responseNote": "Parasti atbildu dažu darba dienu laikā."
+  },
+  "approach": {
+    "id": "pieeja",
+    "heading": "Dažādas nozares. Uzmanība cilvēkam.",
+    "paragraphs": [
+      "Televīzijas skatīšanās, apdrošināšanas iegāde vai valsts pakalpojuma pieteikšana: katrā situācijā cilvēkam ir savs mērķis, jautājumi un šķēršļi.",
+      "Darbs ar Tet, If, Zen IS un BTA projektiem devis pieredzi gan klientu lietotnēs un tīmekļvietnēs, gan darbinieku ikdienas sistēmās. Pašlaik BTA tas nozīmē lietotāju izpēti, digitālo risinājumu dizainu un dizaina sistēmas attīstību.",
+      "Līdzās produktu darbam ir dizaina komandu vadība, dizaina domāšanas darbnīcas un mācības par lietotājorientētu saturu un digitālo piekļūstamību."
+    ]
+  }
+}

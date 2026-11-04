@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+// Izvada visus vienas valodas tekstus lasāmā Markdown failā: node tools/texts.js lv > teksti-lv.md
+const fs = require("fs"), path = require("path");
+const lang = process.argv[2] || "lv";
+const c = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "content", `${lang}.json`), "utf8"));
+const s = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "content", "site.json"), "utf8"));
+const out = [];
+const h = (t) => out.push(`\n## ${t}\n`);
+out.push(`# ${s.person.name}: visi teksti (${lang.toUpperCase()})\n`);
+h("SEO");
+out.push(`**Title:** ${c.seo.title}\n\n**Meta description:** ${c.seo.description}\n\n**OG tagline:** ${c.seo.ogTagline}`);
+h("Navigācija");
+out.push(c.nav.map((n) => `- ${n.label}`).join("\n") + `\n- ${c.ui.skipLink} (skip link)`);
+h("Ievads");
+out.push(`${c.hero.eyebrow}\n\n# ${c.hero.name}\n\n*${c.hero.thesis}*\n\n${[].concat(c.hero.intro).join("\n\n")}\n\nPogas: **${c.hero.ctaPrimary.label}** · ${c.hero.ctaSecondary.label}\n`);
+out.push(c.hero.facts.map((f) => `- **${f.label}:** ${f.value}`).join("\n"));
+h(c.approach.heading);
+out.push(c.approach.paragraphs.join("\n\n"));
+h(c.trust.heading);
+out.push(c.trust.groups.map((g) => `- **${g.label}${g.note ? ` (${g.note})` : ""}:** ${g.items.join(", ")}`).join("\n"));
+h(c.competences.heading);
+out.push(`*${c.competences.lead}*\n`);
+for (const k of c.competences.items) out.push(`### ${k.title}\n- **${c.competences.rowLabels.situation}:** ${k.situation}\n- **${c.competences.rowLabels.action}:** ${k.action}\n- **${c.competences.rowLabels.outcome}:** ${k.outcome}\n`);
+h(c.work.heading);
+out.push(`*${c.work.lead}*\n`);
+for (const w of c.work.items) out.push(`### ${w.title}\n${w.org} · ${w.years} · ${w.role}\n\n${w.text}\n`);
+h(c.about.heading);
+out.push(c.about.bio.join("\n\n") + `\n\n### ${c.about.timelineHeading}\n` + c.about.timeline.map((t) => `- ${t.years} · **${t.org}** · ${t.role}`).join("\n"));
+h(c.publications.heading);
+out.push(`*${c.publications.lead}*\n`);
+for (const u of c.publications.items) out.push(`### ${u.title}\n${u.role} · ${u.source} · ${u.date}\n${u.url}\n\n${u.text}\n`);
+h(c.contact.heading);
+out.push(`${c.contact.lead}\n\n- **${c.contact.emailLabel}:** ${s.person.email}\n- **${c.contact.linkedinLabel}:** ${c.contact.linkedinText} (${s.person.linkedin})\n\n${c.contact.responseNote}`);
+h("Kājene");
+out.push(`${s.person.name} ${c.ui.footerNote}\n\nSaites: ${c.otherLangLabel} · LinkedIn · ${c.ui.topLabel}`);
+process.stdout.write(out.join("\n") + "\n");

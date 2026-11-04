@@ -1,0 +1,47 @@
+{
+  "_piezime": "Vispārīgie iestatījumi. baseUrl nomaini uz īsto domēnu pirms publicēšanas (bez slīpsvītras beigās).",
+  "baseUrl": "https://elinaozola.lv",
+  "defaultLang": "lv",
+  "languages": [
+    "lv",
+    "en"
+  ],
+  "person": {
+    "name": "Elīna Ozola",
+    "formerName": "Elīna Ozola-Tērauda",
+    "alternateNames": [
+      "Elina Ozola",
+      "Elīna Ozola-Tērauda",
+      "Elina Ozola-Terauda"
+    ],
+    "jobTitle": "User Research & Product Design",
+    "employer": {
+      "name": "BTA",
+      "url": "https://www.bta.lv"
+    },
+    "email": "elina.ozola.ux@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/elinaozolaux/",
+    "location": "Latvija",
+    "portrait": "portrait.jpg",
+    "_portrait": "Ja vēlies portretu: ieliec failu mapē static/ un šeit ieraksti, piem., \"portrait.jpg\". Tukšs = bez portreta.",
+    "portraitAbout": "portrait-about.jpg"
+  },
+  "updated": "2026-11-02",
+  "logos": {
+    "BTA": "logos/bta.svg",
+    "Zen IS": "logos/zenis.svg",
+    "If P&C Insurance": "logos/if.svg",
+    "Tet": "logos/tet.svg",
+    "Efumo SSC": "logos/efumo.svg",
+    "Latvijas Banka": "logos/latvijas-banka.svg",
+    "LIAA": "logos/liaa.png",
+    "PTA.lv": "logos/pta.svg",
+    "Printify": "logos/printify.svg",
+    "Tele2": "logos/tele2.svg",
+    "CUBE": "logos/cube.svg",
+    "Valsts administrācijas skola": "logos/vas.png",
+    "State Administration School (VAS)": "logos/vas.png",
+    "BDA": "logos/bda.svg"
+  },
+  "_logos": "Organizāciju logotipi sadaļā «Par mani»: nosaukums (kā content/*.json trust.groups) → fails mapē static/. SVG tiek iekļauts lapā ar currentColor; PNG (ar caurspīdīgu fonu) tiek rādīts kā vienkrāsas maska."
+}
