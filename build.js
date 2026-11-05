@@ -344,7 +344,7 @@ function body(c, lang, opts) {
             <div><dt>${esc(c.contact.emailLabel)}</dt><dd><a class="mail" href="mailto:${esc(p.email)}">${esc(p.email)}</a></dd></div>
             <div><dt>${esc(c.contact.linkedinLabel)}</dt><dd><a class="li" href="${esc(p.linkedin)}" rel="me noopener">${esc(c.contact.linkedinText)}</a></dd></div>
           </dl>
-          <p class="note">${esc(c.contact.responseNote)}</p>
+          ${c.contact.responseNote ? `<p class="note">${esc(c.contact.responseNote)}</p>` : ""}
         </div>
       </div>
     </section>
