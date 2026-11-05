@@ -59,6 +59,24 @@ function isoDateTime(d) {
   return `${d}T12:00:00${offset}`;
 }
 
+
+// Minimālistiskas līniju ikonas sadaļai «Ko palīdzu atrisināt» (24×24, currentColor, oriģinālas).
+// Atslēga = content/*.json competences.items[].icon
+const ICONS = {
+  // neskaidra problēma: punktēts aplis ar jautājuma zīmi
+  unclear: '<circle cx="12" cy="12" r="9" stroke-dasharray="2.6 3"/><path d="M9.6 9.6a2.4 2.4 0 1 1 3.4 2.2c-.7.4-1 .9-1 1.7"/><circle cx="12" cy="16.6" r=".6" fill="currentColor" stroke="none"/>',
+  // sarežģīts pakalpojums: samezglota līnija, kas kļūst taisna
+  untangle: '<path d="M3 15c2.5 0 2.5-6 5-6s2.5 6 5 6 2.5-6 5-6"/><path d="M3 19h18"/>',
+  // puses nevar vienoties: trīs punkti saplūst vienā
+  converge: '<circle cx="5" cy="5" r="1.7"/><circle cx="19" cy="5" r="1.7"/><circle cx="12" cy="20" r="1.7"/><path d="M6.3 6.3 10.5 10.5M17.7 6.3 13.5 10.5M12 18.3V14.4"/><circle cx="12" cy="12" r="2.2" fill="currentColor" stroke="none"/>',
+  // dizains bez sistēmas: komponenšu režģis, viens elements izcelts
+  system: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5" fill="currentColor" stroke="none"/>',
+};
+const icon = (name) =>
+  ICONS[name]
+    ? `<svg class="ico" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name]}</svg>`
+    : "";
+
 function jsonLd(c, lang, pageUrl) {
   const p = site.person;
   const person = {
@@ -179,7 +197,7 @@ function body(c, lang, opts) {
   const comps = c.competences.items
     .map(
       (k) => `<li>
-            <h4>${esc(k.title)}</h4>
+            <h4>${icon(k.icon)}<span>${esc(k.title)}</span></h4>
             <dl>
               <div><dt>${esc(rl.situation)}</dt><dd>${esc(k.situation)}</dd></div>
               <div><dt>${esc(rl.action)}</dt><dd>${esc(k.action)} <span class="out">${esc(k.outcome)}</span></dd></div>

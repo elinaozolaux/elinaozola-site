@@ -121,25 +121,29 @@
         "title": "An unclear problem",
         "situation": "Everyone feels something is not working, but no one can say what exactly.",
         "action": "Users and customer-service staff are researched, data is analysed, and the problem is defined together with the team in a workshop.",
-        "outcome": "Decisions rest on evidence rather than guesses, before development money is spent."
+        "outcome": "Decisions rest on evidence rather than guesses, before development money is spent.",
+        "icon": "unclear"
       },
       {
         "title": "A complex service",
         "situation": "The service is correct in substance, but people do not understand it or do not complete it.",
         "action": "The journey from customer to employee is mapped, prototypes are built and tested with users, and the finished solution is handed over to development.",
-        "outcome": "A service people can complete on their own, and fewer calls to support."
+        "outcome": "A service people can complete on their own, and fewer calls to support.",
+        "icon": "untangle"
       },
       {
         "title": "Stakeholders cannot agree",
         "situation": "Business, IT and marketing each see a different goal, and decisions get stuck.",
         "action": "In workshops and design critique, opinions are turned into shared goals and measurable indicators.",
-        "outcome": "One direction, and decisions that do not come back at the next meeting."
+        "outcome": "One direction, and decisions that do not come back at the next meeting.",
+        "icon": "converge"
       },
       {
         "title": "Design without a system",
         "situation": "There is design, but every product looks and works differently.",
         "action": "A design system, process and team are built; accessibility becomes an everyday standard rather than a final check.",
-        "outcome": "A consistent product across platforms and cheaper development."
+        "outcome": "A consistent product across platforms and cheaper development.",
+        "icon": "system"
       }
     ]
   },

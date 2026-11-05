@@ -121,25 +121,29 @@
         "title": "Neskaidra problēma",
         "situation": "Visi jūt, ka kaut kas nestrādā, bet neviens nevar pateikt, kas tieši.",
         "action": "Tiek pētīti lietotāji un klientu apkalpošanas darbinieki, analizēti dati, un darbnīcā kopā ar komandu tiek noformulēta problēma.",
-        "outcome": "Lēmumi balstās pierādījumos, nevis minējumos, vēl pirms iztērēta izstrādes nauda."
+        "outcome": "Lēmumi balstās pierādījumos, nevis minējumos, vēl pirms iztērēta izstrādes nauda.",
+        "icon": "unclear"
       },
       {
         "title": "Sarežģīts pakalpojums",
         "situation": "Pakalpojums pēc būtības ir pareizs, bet cilvēks to nesaprot vai nepabeidz.",
         "action": "Tiek kartēts ceļš no klienta līdz darbiniekam, veidoti un ar lietotājiem testēti prototipi, un gatavais risinājums nodots izstrādei.",
-        "outcome": "Pakalpojums, ko var pabeigt pašam, un mazāk zvanu atbalstam."
+        "outcome": "Pakalpojums, ko var pabeigt pašam, un mazāk zvanu atbalstam.",
+        "icon": "untangle"
       },
       {
         "title": "Puses nevar vienoties",
         "situation": "Bizness, IT un mārketings katrs redz citu mērķi, un lēmumi iestrēgst.",
         "action": "Darbnīcās un dizaina kritikā viedokļi tiek pārvērsti kopīgos mērķos un mērāmos rādītājos.",
-        "outcome": "Viens virziens un lēmumi, kas neatgriežas nākamajā sapulcē."
+        "outcome": "Viens virziens un lēmumi, kas neatgriežas nākamajā sapulcē.",
+        "icon": "converge"
       },
       {
         "title": "Dizains bez sistēmas",
         "situation": "Dizains ir, bet katrs produkts izskatās un strādā citādi.",
         "action": "Tiek veidota dizaina sistēma, process un komanda; piekļūstamība kļūst par ikdienas standartu, nevis gala pārbaudi.",
-        "outcome": "Konsekvents produkts visās platformās un lētāka izstrāde."
+        "outcome": "Konsekvents produkts visās platformās un lētāka izstrāde.",
+        "icon": "system"
       }
     ]
   },

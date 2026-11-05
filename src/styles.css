@@ -192,7 +192,8 @@ li { list-style: none; }
 .comp { display: grid; gap: 0; }
 .comp > li { border-top: 1px solid var(--line); padding-block: 1.5rem; display: grid; gap: 1rem; }
 .comp > li:first-child { border-top: 0; padding-top: .5rem; }
-.comp h4 { font-size: var(--text-2xl); line-height: var(--lh-2xl); letter-spacing: -0.02em; }
+.comp h4 { font-size: var(--text-2xl); line-height: var(--lh-2xl); letter-spacing: -0.02em; display: flex; align-items: center; gap: .75rem; }
+.comp .ico { flex: 0 0 auto; color: var(--accent); }
 .comp dl { display: grid; gap: .7rem; }
 .comp dl div { display: grid; grid-template-columns: 8.5rem 1fr; gap: 1rem; }
 .comp dt { font-size: var(--text-xs); line-height: var(--lh-xs); letter-spacing: .06em; text-transform: uppercase; color: var(--fg-2); padding-top: .25rem; }
