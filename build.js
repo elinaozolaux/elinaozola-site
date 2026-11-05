@@ -50,6 +50,15 @@ function loadLang(lang) {
   return JSON.parse(fs.readFileSync(path.join(ROOT, `content/${lang}.json`), "utf8"));
 }
 
+// Google ProfilePage dateCreated/dateModified prasa pilnu datumu ar laiku un laika joslu (ISO 8601).
+// site.json pietiek ar "GGGG-MM-DD"; šeit pieliek pusdienlaiku pēc Rīgas laika.
+function isoDateTime(d) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) return d;
+  const m = Number(d.slice(5, 7));
+  const offset = m >= 4 && m <= 10 ? "+03:00" : "+02:00";
+  return `${d}T12:00:00${offset}`;
+}
+
 function jsonLd(c, lang, pageUrl) {
   const p = site.person;
   const person = {
@@ -76,7 +85,8 @@ function jsonLd(c, lang, pageUrl) {
     url: pageUrl,
     name: c.seo.title,
     inLanguage: lang,
-    dateModified: site.updated,
+    dateCreated: isoDateTime(site.created || site.updated),
+    dateModified: isoDateTime(site.updated),
     mainEntity: { "@id": `${site.baseUrl}/#person` },
   };
   return JSON.stringify({ "@context": "https://schema.org", "@graph": [person, page] });

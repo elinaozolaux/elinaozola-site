@@ -26,7 +26,9 @@
     "_portrait": "Ja vēlies portretu: ieliec failu mapē static/ un šeit ieraksti, piem., \"portrait.jpg\". Tukšs = bez portreta.",
     "portraitAbout": "portrait-about.jpg"
   },
-  "updated": "2026-11-04",
+  "created": "2026-11-04",
+  "updated": "2026-11-05",
+  "_updated": "Pēdējo izmaiņu datums (GGGG-MM-DD); nomaini, kad maini saturu. created = publicēšanas datums, nemaini.",
   "_verification": "Meklētāju īpašumtiesību apliecinājumi (meta tagi lapas <head>). Google izmanto DNS TXT ierakstu nic.lv.",
   "verification": {
     "msvalidate.01": "83345341CA9FA6D6437A9A7457640518"
