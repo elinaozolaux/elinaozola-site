@@ -109,7 +109,7 @@
   },
   "competences": {
     "id": "what-i-solve",
-    "heading": "What I help solve",
+    "heading": "What gets solved",
     "lead": "",
     "rowLabels": {
       "situation": "Problem",
@@ -120,25 +120,25 @@
       {
         "title": "An unclear problem",
         "situation": "Everyone feels something is not working, but no one can say what exactly.",
-        "action": "I talk to users and staff, look at the data, and in a workshop we define the problem together.",
+        "action": "Users and customer-service staff are researched, data is analysed, and the problem is defined together with the team in a workshop.",
         "outcome": "Decisions rest on evidence rather than guesses, before development money is spent."
       },
       {
         "title": "A complex service",
         "situation": "The service is correct in substance, but people do not understand it or do not complete it.",
-        "action": "I map the journey from customer to employee, build and test prototypes, and hand over to development.",
+        "action": "The journey from customer to employee is mapped, prototypes are built and tested with users, and the finished solution is handed over to development.",
         "outcome": "A service people can complete on their own, and fewer calls to support."
       },
       {
         "title": "Stakeholders cannot agree",
         "situation": "Business, IT and marketing each see a different goal, and decisions get stuck.",
-        "action": "I run workshops and design critique and turn opinions into shared goals and measurable indicators.",
+        "action": "In workshops and design critique, opinions are turned into shared goals and measurable indicators.",
         "outcome": "One direction, and decisions that do not come back at the next meeting."
       },
       {
         "title": "Design without a system",
         "situation": "There is design, but every product looks and works differently.",
-        "action": "I build the design system, the process and the team; accessibility becomes an everyday standard rather than a final check.",
+        "action": "A design system, process and team are built; accessibility becomes an everyday standard rather than a final check.",
         "outcome": "A consistent product across platforms and cheaper development."
       }
     ]
@@ -286,8 +286,8 @@
     "id": "approach",
     "heading": "Different industries. Focus on people.",
     "paragraphs": [
-      "Television, insurance, a public service. Different industries, but on the other side there is always a person with their own goal, questions and obstacles. My work is to understand them and turn that into a solution that works.",
-      "On Tet, If, Zen IS and BTA projects I have designed customer apps and websites as well as the systems employees use every day. Alongside that, I lead design teams and design-thinking workshops and teach user-centred content and accessibility."
+      "Television, insurance, a public service. Different industries, but on the other side there is always a person with their own goal, questions and obstacles. The work starts with understanding those people and ends with a solution that works.",
+      "Tet, If, Zen IS and BTA projects have produced customer apps and websites as well as the systems employees use every day. Alongside product work: leading design teams, running design-thinking workshops and teaching user-centred content and accessibility."
     ]
   }
 }

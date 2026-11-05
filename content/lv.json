@@ -109,7 +109,7 @@
   },
   "competences": {
     "id": "kompetences",
-    "heading": "Ko palīdzu atrisināt",
+    "heading": "Kādas problēmas tiek risinātas",
     "lead": "",
     "rowLabels": {
       "situation": "Problēma",
@@ -120,25 +120,25 @@
       {
         "title": "Neskaidra problēma",
         "situation": "Visi jūt, ka kaut kas nestrādā, bet neviens nevar pateikt, kas tieši.",
-        "action": "Runāju ar lietotājiem un darbiniekiem, skatos datus un darbnīcā kopā noformulējam problēmu.",
+        "action": "Tiek pētīti lietotāji un klientu apkalpošanas darbinieki, analizēti dati, un darbnīcā kopā ar komandu tiek noformulēta problēma.",
         "outcome": "Lēmumi balstās pierādījumos, nevis minējumos, vēl pirms iztērēta izstrādes nauda."
       },
       {
         "title": "Sarežģīts pakalpojums",
         "situation": "Pakalpojums pēc būtības ir pareizs, bet cilvēks to nesaprot vai nepabeidz.",
-        "action": "Kartēju ceļu no klienta līdz darbiniekam, veidoju un testēju prototipus, nododu izstrādei.",
+        "action": "Tiek kartēts ceļš no klienta līdz darbiniekam, veidoti un ar lietotājiem testēti prototipi, un gatavais risinājums nodots izstrādei.",
         "outcome": "Pakalpojums, ko var pabeigt pašam, un mazāk zvanu atbalstam."
       },
       {
         "title": "Puses nevar vienoties",
         "situation": "Bizness, IT un mārketings katrs redz citu mērķi, un lēmumi iestrēgst.",
-        "action": "Vadu darbnīcas un dizaina kritiku, viedokļus pārvēršu kopīgos mērķos un mērāmos rādītājos.",
+        "action": "Darbnīcās un dizaina kritikā viedokļi tiek pārvērsti kopīgos mērķos un mērāmos rādītājos.",
         "outcome": "Viens virziens un lēmumi, kas neatgriežas nākamajā sapulcē."
       },
       {
         "title": "Dizains bez sistēmas",
         "situation": "Dizains ir, bet katrs produkts izskatās un strādā citādi.",
-        "action": "Veidoju dizaina sistēmu, procesu un komandu; piekļūstamība kļūst par ikdienas standartu, nevis gala pārbaudi.",
+        "action": "Tiek veidota dizaina sistēma, process un komanda; piekļūstamība kļūst par ikdienas standartu, nevis gala pārbaudi.",
         "outcome": "Konsekvents produkts visās platformās un lētāka izstrāde."
       }
     ]
@@ -286,8 +286,8 @@
     "id": "pieeja",
     "heading": "Dažādas nozares. Uzmanība cilvēkam.",
     "paragraphs": [
-      "Televīzija, apdrošināšana, valsts pakalpojums. Nozares dažādas, bet otrā pusē vienmēr ir cilvēks ar savu mērķi, jautājumiem un šķēršļiem. Mans darbs ir tos saprast un pārvērst risinājumā, kas strādā.",
-      "Tet, If, Zen IS un BTA projektos esmu veidojusi gan klientu lietotnes un tīmekļvietnes, gan sistēmas, ko darbinieki lieto katru dienu. Līdzās tam vadu dizaina komandas un dizaina domāšanas darbnīcas un mācu lietotājorientētu saturu un piekļūstamību."
+      "Televīzija, apdrošināšana, valsts pakalpojums. Nozares dažādas, bet otrā pusē vienmēr ir cilvēks ar savu mērķi, jautājumiem un šķēršļiem. Darbs sākas ar to, lai šos cilvēkus saprastu, un beidzas ar risinājumu, kas strādā.",
+      "Tet, If, Zen IS un BTA projektos ir tapušas gan klientu lietotnes un tīmekļvietnes, gan sistēmas, ko darbinieki lieto katru dienu. Līdzās produktu darbam: dizaina komandu vadība, dizaina domāšanas darbnīcas un mācības par lietotājorientētu saturu un piekļūstamību."
     ]
   }
 }
