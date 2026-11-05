@@ -235,7 +235,7 @@ function body(c, lang, opts) {
               : opts.assetBase + u.image)
           : "";
         const thumb = u.image
-          ? `<a class="thumb" href="${esc(u.url)}" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${src}" alt="" width="800" height="500" loading="lazy"></a>`
+          ? `<div class="thumb"><img src="${src}" alt="" width="800" height="500" loading="lazy"></div>`
           : "";
         return `<li${u.image ? ' class="has-thumb"' : ""}>
             ${thumb}
