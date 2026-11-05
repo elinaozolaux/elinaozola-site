@@ -194,10 +194,10 @@ li { list-style: none; }
 .comp > li:first-child { border-top: 0; padding-top: .5rem; }
 .comp h4 { font-size: var(--text-2xl); line-height: var(--lh-2xl); letter-spacing: -0.02em; }
 .comp dl { display: grid; gap: .7rem; }
-.comp dl div { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; }
+.comp dl div { display: grid; grid-template-columns: 8.5rem 1fr; gap: 1rem; }
 .comp dt { font-size: var(--text-xs); line-height: var(--lh-xs); letter-spacing: .06em; text-transform: uppercase; color: var(--fg-2); padding-top: .25rem; }
 .comp dd { margin: 0; max-width: var(--measure); }
-.comp dd.out { color: var(--accent); font-weight: 500; }
+.comp .out { color: var(--accent); font-weight: 500; }
 @media (min-width: 40em) and (max-width: 55.99em) { .comp dl div { grid-template-columns: 7rem 1fr; } }
 
 /* Izvēlētā pieredze: kartītes */

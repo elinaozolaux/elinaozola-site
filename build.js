@@ -182,8 +182,7 @@ function body(c, lang, opts) {
             <h4>${esc(k.title)}</h4>
             <dl>
               <div><dt>${esc(rl.situation)}</dt><dd>${esc(k.situation)}</dd></div>
-              <div><dt>${esc(rl.action)}</dt><dd>${esc(k.action)}</dd></div>
-              <div><dt>${esc(rl.outcome)}</dt><dd class="out">${esc(k.outcome)}</dd></div>
+              <div><dt>${esc(rl.action)}</dt><dd>${esc(k.action)} <span class="out">${esc(k.outcome)}</span></dd></div>
             </dl>
           </li>`
     )

@@ -110,36 +110,36 @@
   "competences": {
     "id": "kompetences",
     "heading": "Ko palīdzu atrisināt",
-    "lead": "Četras situācijas, kurās manu darbu ir visvieglāk saprast: kāda ir problēma, ko es daru un kas no tā rodas.",
+    "lead": "",
     "rowLabels": {
-      "situation": "Situācija",
-      "action": "Ko daru",
+      "situation": "Problēma",
+      "action": "Rīcība un rezultāts",
       "outcome": "Rezultāts"
     },
     "items": [
       {
-        "title": "Neskaidras problēmas definēšana",
-        "situation": "Komanda jūt, ka produkts vai process nestrādā, bet nav vienota skatījuma, kas tieši un kāpēc.",
-        "action": "Intervēju lietotājus un frontlīnijas darbiniekus, analizēju datus un konkurentus, kopā ar iesaistītajām pusēm dizaina domāšanas darbnīcās formulēju problēmu un prioritātes.",
-        "outcome": "Ar pierādījumiem pamatots lēmumu pamats, pirms tiek ieguldīts izstrādē."
+        "title": "Neskaidra problēma",
+        "situation": "Visi jūt, ka kaut kas nestrādā, bet neviens nevar pateikt, kas tieši.",
+        "action": "Runāju ar lietotājiem un darbiniekiem, skatos datus un darbnīcā kopā noformulējam problēmu.",
+        "outcome": "Lēmumi balstās pierādījumos, nevis minējumos, vēl pirms iztērēta izstrādes nauda."
       },
       {
-        "title": "Sarežģītu pakalpojumu vienkāršošana",
-        "situation": "Apdrošināšana, finanšu informācija vai valsts pakalpojums ir pareizs pēc būtības, bet lietotājam grūti saprotams un pabeidzams.",
-        "action": "Kartēju ceļu no gala lietotāja līdz iekšējiem darbiniekiem, veidoju plūsmas un prototipus, pārbaudu tos ar lietotājiem un nododu izstrādei.",
-        "outcome": "Pakalpojums, ko var pabeigt bez palīdzības, un mazāka slodze atbalstam."
+        "title": "Sarežģīts pakalpojums",
+        "situation": "Pakalpojums pēc būtības ir pareizs, bet cilvēks to nesaprot vai nepabeidz.",
+        "action": "Kartēju ceļu no klienta līdz darbiniekam, veidoju un testēju prototipus, nododu izstrādei.",
+        "outcome": "Pakalpojums, ko var pabeigt pašam, un mazāk zvanu atbalstam."
       },
       {
-        "title": "Iesaistīto pušu saskaņošana",
-        "situation": "Lēmumi iestrēgst starp biznesu, IT un mārketingu, un katram ir savs priekšstats par mērķi.",
-        "action": "Vadu darbnīcas, dizaina domāšanas programmas un dizaina kritiku; pārvēršu viedokļus kopīgos mērķos, mērķauditorijās un KPI.",
-        "outcome": "Vienots virziens un lēmumi, kas neatgriežas atpakaļ sapulcēs."
+        "title": "Puses nevar vienoties",
+        "situation": "Bizness, IT un mārketings katrs redz citu mērķi, un lēmumi iestrēgst.",
+        "action": "Vadu darbnīcas un dizaina kritiku, viedokļus pārvēršu kopīgos mērķos un mērāmos rādītājos.",
+        "outcome": "Viens virziens un lēmumi, kas neatgriežas nākamajā sapulcē."
       },
       {
-        "title": "Dizaina prakses un sistēmu veidošana",
-        "situation": "Organizācijai dizains ir, bet nav procesa, sistēmas vai komandas, kas to notur konsekventu.",
-        "action": "Veidoju dizaina sistēmas, darba procesus un komandas; iestrādāju piekļūstamību (WCAG) kā ikdienas standartu, nevis gala pārbaudi.",
-        "outcome": "Konsekvents produkts visās platformās un lētāka izstrāde, atkārtoti izmantojot komponentes."
+        "title": "Dizains bez sistēmas",
+        "situation": "Dizains ir, bet katrs produkts izskatās un strādā citādi.",
+        "action": "Veidoju dizaina sistēmu, procesu un komandu; piekļūstamība kļūst par ikdienas standartu, nevis gala pārbaudi.",
+        "outcome": "Konsekvents produkts visās platformās un lētāka izstrāde."
       }
     ]
   },
@@ -286,9 +286,8 @@
     "id": "pieeja",
     "heading": "Dažādas nozares. Uzmanība cilvēkam.",
     "paragraphs": [
-      "Televīzijas skatīšanās, apdrošināšanas iegāde vai valsts pakalpojuma pieteikšana: katrā situācijā cilvēkam ir savs mērķis, jautājumi un šķēršļi.",
-      "Darbs ar Tet, If, Zen IS un BTA projektiem devis pieredzi gan klientu lietotnēs un tīmekļvietnēs, gan darbinieku ikdienas sistēmās. Pašlaik BTA tas nozīmē lietotāju izpēti, digitālo risinājumu dizainu un dizaina sistēmas attīstību.",
-      "Līdzās produktu darbam ir dizaina komandu vadība, dizaina domāšanas darbnīcas un mācības par lietotājorientētu saturu un digitālo piekļūstamību."
+      "Televīzija, apdrošināšana, valsts pakalpojums. Nozares dažādas, bet otrā pusē vienmēr ir cilvēks ar savu mērķi, jautājumiem un šķēršļiem. Mans darbs ir tos saprast un pārvērst risinājumā, kas strādā.",
+      "Tet, If, Zen IS un BTA projektos esmu veidojusi gan klientu lietotnes un tīmekļvietnes, gan sistēmas, ko darbinieki lieto katru dienu. Līdzās tam vadu dizaina komandas un dizaina domāšanas darbnīcas un mācu lietotājorientētu saturu un piekļūstamību."
     ]
   }
 }
