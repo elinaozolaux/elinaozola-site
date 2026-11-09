@@ -179,7 +179,16 @@ function body(c, lang, opts) {
     const abs = path.join(ROOT, "static", file);
     if (!fs.existsSync(abs)) return `<span class="org-name">${esc(name)}</span>`;
     if (file.endsWith(".svg")) {
-      return `<span class="logo">${fs.readFileSync(abs, "utf8").trim()}</span><span class="sr-only">${esc(name)}</span>`;
+      // Iekļaujot SVG lapā, izņem <metadata>, komentārus un XML prologu: logotipa failiem
+      // pievienotie metadati (piem., C2PA manifesti) lapā nav vajadzīgi un vairākkārt palielina HTML.
+      const svg = fs
+        .readFileSync(abs, "utf8")
+        .replace(/<\?xml[^>]*\?>/g, "")
+        .replace(/<!--[\s\S]*?-->/g, "")
+        .replace(/<metadata[\s\S]*?<\/metadata>/g, "")
+        .replace(/\s+xmlns:c2pa="[^"]*"/g, "")
+        .trim();
+      return `<span class="logo">${svg}</span><span class="sr-only">${esc(name)}</span>`;
     }
     const uri = "data:image/png;base64," + fs.readFileSync(abs).toString("base64");
     return `<span class="logo logo-mask" style="--m:url(${uri})" role="img" aria-label="${esc(name)}"></span><span class="sr-only">${esc(name)}</span>`;
@@ -235,7 +244,7 @@ function body(c, lang, opts) {
               : opts.assetBase + u.image)
           : "";
         const thumb = u.image
-          ? `<div class="thumb"><img src="${src}" alt="" width="800" height="500" loading="lazy"></div>`
+          ? `<div class="thumb"><img src="${src}" alt="${esc(u.imageAlt || "")}" width="800" height="500" loading="lazy"></div>`
           : "";
         return `<li${u.image ? ' class="has-thumb"' : ""}>
             ${thumb}
@@ -260,7 +269,7 @@ function body(c, lang, opts) {
         : opts.assetBase + p.portraitAbout)
     : "";
   const aboutImg = p.portraitAbout
-    ? `<img class="portrait-round" src="${aboutSrc}" alt="" width="1000" height="1000" loading="lazy">`
+    ? `<img class="portrait-round" src="${aboutSrc}" alt="${esc(c.about.portraitAlt || p.name)}" width="1000" height="1000" loading="lazy">`
     : "";
   const portrait = p.portrait
     ? `<img class="portrait" src="${portraitSrc}" alt="${esc(p.name)}" width="1200" height="1200" fetchpriority="high">`
