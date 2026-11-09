@@ -30,6 +30,10 @@
   "updated": "2026-11-05",
   "_updated": "Pēdējo izmaiņu datums (GGGG-MM-DD); nomaini, kad maini saturu. created = publicēšanas datums, nemaini.",
   "_verification": "Meklētāju īpašumtiesību apliecinājumi (meta tagi lapas <head>). Google izmanto DNS TXT ierakstu nic.lv.",
+  "_analytics": "Apmeklējumu statistika bez sīkdatnēm: GoatCounter konta nosaukums (panelis https://<nosaukums>.goatcounter.com). Tukšs = bez statistikas.",
+  "analytics": {
+    "goatcounter": "elinaozola"
+  },
   "verification": {
     "msvalidate.01": "83345341CA9FA6D6437A9A7457640518"
   },

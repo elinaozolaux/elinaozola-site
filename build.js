@@ -392,7 +392,13 @@ function body(c, lang, opts) {
 
 function page(lang, opts) {
   const c = loadLang(lang);
-  return head(c, lang, opts) + body(c, lang, opts) + (opts.artifact ? "\n" : "\n</body>\n</html>\n");
+  // Apmeklējumu statistika bez sīkdatnēm (GoatCounter). Tikai īstajā vietnē, ne priekšskatījumos.
+  const gc = site.analytics && site.analytics.goatcounter;
+  const analytics =
+    gc && !opts.artifact
+      ? `\n<script data-goatcounter="https://${gc}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>`
+      : "";
+  return head(c, lang, opts) + body(c, lang, opts) + analytics + (opts.artifact ? "\n" : "\n</body>\n</html>\n");
 }
 
 function notFound() {
